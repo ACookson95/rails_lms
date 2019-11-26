@@ -1,0 +1,5 @@
+<h1><%= @course.name %></h1>
+<br>
+<%= link_to 'Enrollments', course_enrollments_path(@course) %>
+<br />
+<%= link_to 'Delete Course', @course, method: :delete %>
